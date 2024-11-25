@@ -49,7 +49,7 @@ int main()
         cout<<"Enter your guess: ";
         cin>>guess;
 
-        for (int i = 0 ; i < guess.length() && i < MAX_GUESS_LENGTH; i++)
+        for (std::__cxx11::basic_string<char>::size_type i = 0 ; i < guess.length(); i++)
         {
             guess[i]=tolower(guess[i]);
         }
